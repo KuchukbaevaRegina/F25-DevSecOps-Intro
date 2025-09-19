@@ -3,12 +3,23 @@
   "summary": {
     "title": "Juice Shop Lab",
     "owner": "KuchukbaevaRegina",
-    "description": "",
+    "description": "Local OWASP Juice Shop setup: Node.js 19.0.0 container running the application, user browser accessing via HTTP on port 3000 or optionally through a reverse proxy with TLS and security headers. Persistent storage for logs/uploads. Outbound notifications sent via Email/SMS provider or optional webhooks. Focus on modeling minimal architecture, STRIDE threats, and actionable mitigations.",
     "id": 0
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": [],
+        "description": "High-level threat model for local OWASP Juice Shop setup. Shows trust boundaries (Internet → Host → Container network), actors (User Browser, Attacker), components (Juice Shop container, optional reverse proxy, persistent storage, Email/SMS provider), and data flows. STRIDE threats applied to assets and flows to identify risks and mitigations."
+      }
+    ],
     "diagramTop": 1,
     "reviewer": "",
     "threatTop": 0
